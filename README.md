@@ -1,3 +1,4 @@
+
 # Learn Terrafrom by running these basic labs
 
 This repository contains basic labs for getting started with Terraform. The labs are designed to help you understand the core concepts of Terraform and how to use it to manage your infrastructure as code.
@@ -18,9 +19,8 @@ To begin working with the Terraform code in this repository, follow the steps be
 1. **Initialize the Terraform Working Directory**
 
 This step is required to prepare your working directory for other commands. It downloads the necessary provider plugins and sets up the backend configuration.
-
-```bash
-    terraform init
+```bash 
+  terraform init
 ```
 
 2. **Plan the Execution (Optional)**
@@ -28,19 +28,19 @@ This step is required to prepare your working directory for other commands. It d
 The *terraform plan* command is optional but recommended as it provides an execution plan. This plan shows what actions Terraform will take to achieve the desired state of your infrastructure.
 
 ```bash
-    terraform plan
+  terraform plan
 ```
 3. **Apply the Changes**
 
 To apply the changes and create or update your infrastructure, use the terraform apply command.
 
-    * If you are not passing any variables:
+ * If you are not passing any variables:
 
     ```bash
         terraform apply 
     ```
 
-    * If you are passing variables:
+* If you are passing variables:
 
     Replace "key=value" and "key2=value2" with your actual variable names and values.
 
@@ -62,35 +62,35 @@ Make sure to review the plan before applying destruction to confirm that you are
 
 ## Labs
 
-### Lab1EC2Create
+ ### Lab1 : EC2Create
 Learn how to create an EC2 instance on AWS using Terraform.
 
-### Lab2variables
+### Lab2 : variables
 Demonstrates how to use variables in Terraform to parameterize your configuration.
 
-### Lab3Mapwithfile
+### Lab3 : Map with file
 Shows how to use maps and files in Terraform to manage configurations dynamically.
 
-### Lab4output
+### Lab4 : Output Variables
 Illustrates how to use output variables to display information about your infrastructure.
 
-### Lab5Condition
+### Lab5 : Condition
 Explains how to use conditionals in Terraform to create resources based on certain conditions.
 
-### Lab6Template
+### Lab6 : Template
 Covers how to use template files in Terraform to generate dynamic configuration files.
 
-### Lab7ImplicitDP
+### Lab7 : Implicit dependencies 
 Introduces implicit dependencies and how Terraform manages resource creation order automatically.
 
-### Lab8ExplicitDP
+### Lab8 : Explicit dependencies 
 Demonstrates explicit dependencies to control the order of resource creation more precisely.
 
-### Lab10InstallApachewithSSH
-Shows how to install Apache on an EC2 instance and configure SSH access.
+### Lab10 : Install Apache with SSH
+Shows how to install Apache on an EC2 instance and configure SSH access. Alternatively you can modify the code to install Nginx instead
 
-### Lab11ApachewithFile
-Teaches how to deploy Apache and manage files on the server through Terraform.
+### Lab11 : Apache with Basic weather app
+Teaches how to deploy Apache and manage files on the server through Terraform. Here is the link to the [Basic Weather App used in the code](https://github.com/pawanreddipalli/Basic-Weather-App).
 
 ## Notes
 
