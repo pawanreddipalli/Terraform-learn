@@ -86,10 +86,10 @@ Introduces implicit dependencies and how Terraform manages resource creation ord
 ### Lab8 : Explicit dependencies 
 Demonstrates explicit dependencies to control the order of resource creation more precisely.
 
-### Lab10 : Install Apache with SSH
+### Lab9 : Install Apache with SSH
 Shows how to install Apache on an EC2 instance and configure SSH access. Alternatively you can modify the code to install Nginx instead
 
-### Lab11 : Apache with Basic weather app
+### Lab10 : Apache with Basic weather app
 Teaches how to deploy Apache and manage files on the server through Terraform. Here is the link to the [Basic Weather App used in the code](https://github.com/pawanreddipalli/Basic-Weather-App).
 
 ## Notes
